@@ -1043,5 +1043,36 @@
     </div>
   </footer>
 
+  <!-- SMART AUTO-CLOSE SCRIPT -->
+  <script>
+    document.addEventListener('click', function(event) {
+      // 1. Auto-close Hamburger Menu if clicking outside the navbar
+      const navContainer = document.querySelector('.nav-container');
+      const menuToggle = document.getElementById('menu-toggle-open');
+      
+      if (menuToggle && menuToggle.checked && !navContainer.contains(event.target)) {
+        menuToggle.checked = false;
+      }
+
+      // 2. Auto-close opened property details if clicking outside that specific property card
+      const propertyCards = document.querySelectorAll('.property-card');
+      let clickedInsideAnyCard = false;
+
+      propertyCards.forEach(card => {
+        if (card.contains(event.target)) {
+          clickedInsideAnyCard = true;
+        }
+      });
+
+      // If the click happened completely outside any card, reset the detail selection to default hidden row
+      if (!clickedInsideAnyCard) {
+        const closeTrigger = document.getElementById('close-all-details');
+        if (closeTrigger) {
+          closeTrigger.checked = true;
+        }
+      }
+    });
+  </script>
+
 </body>
 </html>
