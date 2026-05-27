@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamrot Properties Listings</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .font-poppins { font-family: 'Poppins', sans-serif; }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-poppins text-gray-800">
+
+  <!-- Header / Navigation -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="text-2xl font-bold text-amber-600 tracking-wide">LAMROT</span>
+        <span class="text-xl font-light text-gray-500 uppercase tracking-widest text-xs border-l border-gray-300 pl-2">Properties</span>
+      </div>
+      <a href="tel:+251922785816" class="bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        Call +251 922 785816
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-900 text-white py-16 px-4 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center"></div>
+    <div class="relative max-w-5xl mx-auto text-center">
+      <span class="text-amber-500 text-sm font-semibold tracking-widest uppercase block mb-3">Premium Real Estate</span>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Lamrot Properties Listings</h1>
+      <p class="text-gray-400 max-w-2xl mx-auto text-base md:text-lg font-light">
+        Discover verified, high-value real estate opportunities. Exceptional residential apartments and commercial assets tailored for local and diaspora investors.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Content / Listings Grid -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    
+    <!-- Section Title -->
+    <div class="flex items-center justify-between mb-8 border-b border-gray-200 pb-4">
+      <h2 class="text-2xl font-bold text-gray-900">Featured Properties (24)</h2>
+      <span class="text-sm bg-amber-50 text-amber-700 border border-amber-200 px-3 py-1 rounded-full font-medium">Verified Listings</span>
+    </div>
+
+    <!-- 24 Unique Listings Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Property 1: Main Highlight (Piassa) -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200 relative">
+          <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=600&q=80" alt="Piassa Apartment" class="w-full h-full object-cover">
+          <span class="absolute top-3 left-3 bg-amber-600 text-white text-xs font-semibold px-2.5 py-1 rounded">Premium Listing</span>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 text-xs text-amber-600 font-semibold uppercase tracking-wider mb-2">
+              <span>Residential</span>
+              <span>•</span>
+              <span>Apartment</span>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Modern Luxury Apartment in Piassa</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Exquisite high-rise living featuring premium finishings, panoramic views of historic Piassa, and elite security infrastructure.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4">
+              <span class="flex items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                132 m²
+              </span>
+              <span class="text-amber-600 font-bold text-base">Contact for Price</span>
+            </div>
+            <a href="https://wa.me/251922785816" target="_blank" class="w-full bg-gray-900 hover:bg-gray-800 text-white text-center py-2 rounded-lg text-sm font-medium transition block">
+              Inquire via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 2: Bole Luxury Residential -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200 relative">
+          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80" alt="Bole Apartment" class="w-full h-full object-cover">
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 text-xs text-amber-600 font-semibold uppercase tracking-wider mb-2">
+              <span>Residential</span>
+              <span>•</span>
+              <span>Bole Atlas</span>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Exclusive 3-Bedroom Executive Suite</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Located in the vibrant heart of Bole. Perfect for diaspora professionals looking for top-tier amenities and unmatched accessibility.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4">
+              <span>165 m²</span>
+              <span class="text-amber-600 font-bold text-base">Contact for Price</span>
+            </div>
+            <a href="https://wa.me/251922785816" target="_blank" class="w-full bg-gray-900 hover:bg-gray-800 text-white text-center py-2 rounded-lg text-sm font-medium transition block">
+              Inquire via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 3: Kazanchis Commercial Hub -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200 relative">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80" alt="Commercial Office" class="w-full h-full object-cover">
+          <span class="absolute top-3 left-3 bg-blue-600 text-white text-xs font-semibold px-2.5 py-1 rounded">Commercial</span>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 text-xs text-blue-600 font-semibold uppercase tracking-wider mb-2">
+              <span>Commercial</span>
+              <span>•</span>
+              <span>Office Space</span>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Premium Corporate Office Space</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">High-visibility office complex asset in Kazanchis business hub. Ideal for international firms, banks, or corporate headquarters.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4">
+              <span>210 m²</span>
+              <span class="text-amber-600 font-bold text-base">Contact for Price</span>
+            </div>
+            <a href="https://wa.me/251922785816" target="_blank" class="w-full bg-gray-900 hover:bg-gray-800 text-white text-center py-2 rounded-lg text-sm font-medium transition block">
+              Inquire via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Properties 4 through 24 Repeat Standard Layout Structure dynamically -->
+      <!-- Property 4 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • CMC</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Luxury Penthouse Suite</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Elegant penthouse featuring state-of-the-art open kitchen, expansive terrace, and premium smart home features.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>180 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 5 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Old Airport</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Modern 2-Bedroom Apartment</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Quiet, secure residential building popular with expats and diplomats. Superior construction build.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>120 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 6 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-blue-600 font-semibold uppercase mb-2">Commercial • Bole Medhanialem</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Retail Showroom Complex</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Prime ground floor retail showroom location offering maximum foot traffic and high street exposure.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>310 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 7 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Lebu</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Family Residential Apartment</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Spacious 3-bedroom apartment with complete balcony access, modern finishing, and private parking slots.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>145 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 8 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Ayat</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Gated Community Apartment</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Secure, family-friendly setting with green recreational space, reliable water backing systems, and backup power.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>135 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 9 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-blue-600 font-semibold uppercase mb-2">Commercial • Gotera</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Industrial Warehouse Asset</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Highly accessible industrial warehouse asset ideal for logistical storage or manufacturing distribution centers.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>450 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 10 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Summit</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Charming 2-Bedroom Flat</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Affordable real estate option featuring modern interior layouts, exceptional natural lighting, and verified title deeds.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>110 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 11 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Sarbet</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Luxury Studio Apartment</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Elegant metropolitan studio suite. Perfect high-yield asset options for savvy short-term Airbnb operators.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>65 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 12 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-blue-600 font-semibold uppercase mb-2">Commercial • Mexico Area</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Commercial Banking Hall Asset</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Prime ground-floor financial sector location ideal for banking branches or international institutions.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>280 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 13 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Jackros</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Premium 3-Bedroom Residence</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Spacious luxury home environment with dedicated basement parking spaces and advanced security control rooms.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>158 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 14 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Jeka</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Cozy Modern Residential Flat</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Outstanding modern infrastructure unit presenting sweeping suburban views and beautiful natural wood finishings.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>115 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 15 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-blue-600 font-semibold uppercase mb-2">Commercial • Megenagna</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">High-Capacity Training Center Location</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Fully open floor plans optimized for educational facilities, tech hubs, or large institutional workspaces.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>190 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 16 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Gerdji</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Contemporary 2-BR Executive Unit</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Superb finishings complete with a private balcony layout, dedicated reserve water units, and keycard main access.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>128 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 17 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Gofa Camp</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Spacious 3-Bedroom Modern Flat</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Excellent family residence setup near key transit connections. High-end modern materials used throughout.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>142 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 18 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-blue-600 font-semibold uppercase mb-2">Commercial • Wollo Sefer</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Premium Agency Headquarters Hub</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Prime corporate real estate structure complete with high-speed elevator access and a panoramic executive view floor.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>240 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 19 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1502672086835-433b997de3f3?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Bulbula</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Premium Family Living Residence</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">A beautiful modern space layout featuring smart home installations, high ceilings, and full master bedroom options.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>150 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 20 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Kality</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Sleek Multi-Family 2-Bedroom Unit</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Great residential apartment layout offering excellent access links to major industrial and corporate hubs.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>112 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 21 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-blue-600 font-semibold uppercase mb-2">Commercial • Stadium Area</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">High-Street Commercial Retail Vault</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Premium dynamic space optimal for flagship brand showrooms, electronic tech centers, or commercial banking operations.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>175 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 22 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Piazza Heights</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Elite Executive Studio Suite</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Breathtaking modern architectural lines offering high-tier urban luxury options suited perfectly for global diaspora professionals.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>78 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 23 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-600 font-semibold uppercase mb-2">Residential • Imperial Hub</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Stunning 3-Bedroom Family Suite</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Spacious luxury home setting with premium built-in features, dynamic balcony spaces, and excellent backup generator units.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>168 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 24 -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition flex flex-col">
+        <div class="h-48 bg-gray-200"><img src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover"></div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-blue-600 font-semibold uppercase mb-2">Commercial • Meskel Square</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Premium Corporate Showroom Tower</h3>
+            <p class="text-gray-500 text-sm mb-4 line-clamp-2">Unmatched commercial visibility footprint in Meskel Square area. Highly versatile executive asset build.</p>
+          </div>
+          <div class="border-t border-gray-100 pt-4 mt-auto">
+            <div class="flex items-center justify-between text-sm font-medium text-gray-700 mb-4"><span>340 m²</span><span class="text-amber-600 font-bold">Inquire</span></div>
+            <a href="https://wa.me/251922785816" class="w-full bg-gray-900 text-white text-center py-2 rounded-lg text-sm block">WhatsApp Contact</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer Info Section -->
+  <footer class="bg-gray-900 text-gray-400 py-12 mt-16 border-t-4 border-amber-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-6">
+      <div>
+        <p class="text-white font-bold text-lg mb-1 tracking-wider">LAMROT PROPERTIES LISTINGS</p>
+        <p class="text-sm font-light">Connecting premium assets with serious local and diaspora investments.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-4 items-center">
+        <div class="text-sm">
+          <span class="block text-gray-500 uppercase font-semibold text-xs tracking-widest">Direct Desk</span>
+          <a href="mailto:lamrothabtamu2524@gmail.com" class="text-amber-500 hover:underline">lamrothabtamu2524@gmail.com</a>
+        </div>
+        <a href="tel:+251922785816" class="bg-amber-600 hover:bg-amber-700 text-white px-5 py-2.5 rounded-lg text-sm font-medium transition">
+          Call Broker Agency
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
